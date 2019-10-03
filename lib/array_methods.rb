@@ -10,7 +10,9 @@ end
 
 def find_max_value(array)
   value = 0
-    array.length.times 
+    array.length.times do
+      if value < 
+    end
   return value
 end
 
