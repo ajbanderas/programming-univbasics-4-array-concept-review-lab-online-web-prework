@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  value = 0
+  value = array[0]
     array.length.times do |index|
       if value < array[index]
         value = array[index]
