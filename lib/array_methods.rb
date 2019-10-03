@@ -10,8 +10,8 @@ end
 
 def find_max_value(array)
   value = 0
-    array.length.times do
-      if value < 
+    array.length.times do |index|
+      if value < array[index]
     end
   return value
 end
